@@ -2,7 +2,7 @@
 // Prints all environment variable names, but redacts sensitive values.
 
 console.log("=== Running Reviewer Assignment ===");
-const data = process.env.DATA;
+const data = process.env.REPOSITORY_VAR_FLAG;
 
 console.log("This is where my bots logic would be");
 console.log("It would log in with a PAT");
