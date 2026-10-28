@@ -2,10 +2,10 @@
 // Prints all environment variable names, but redacts sensitive values.
 
 console.log("=== Running Reviewer Assignment ===");
-
+const data = process.env.DATA;
 
 console.log("This is where my bots logic would be");
 console.log("It would log in with a PAT");
 console.log("And assign a PR to whoever is in charge");
-
+console.log(data);
 console.log("=== Reviewer Assignment Completed ===");
